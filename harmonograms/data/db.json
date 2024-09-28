@@ -1,0 +1,92 @@
+{
+  "subjects": [
+    {
+      "id": "b441",
+      "title": "Ćwiczenia 1",
+      "body": "",
+      "prof": "pani A",
+      "len": 3.5,
+      "date": "2024-09-25",
+      "time": "18:00",
+      "place": "Sala 123",
+      "nr": "1"
+    },
+    {
+      "id": "1",
+      "title": "Wykład 2",
+      "body": "",
+      "prof": "Pan A",
+      "len": 6,
+      "date": "2024-09-28",
+      "time": "19:00",
+      "place": "Sala 123",
+      "nr": "1"
+    },
+    {
+      "id": "38cb",
+      "title": "Wykład 3152",
+      "body": "",
+      "prof": "Profesor A",
+      "len": 5,
+      "date": "2024-09-28",
+      "time": "19:00",
+      "place": "Sala 245",
+      "nr": "3"
+    },
+    {
+      "id": "59b2",
+      "title": "Ćwiczenia 134",
+      "body": "",
+      "prof": "Profesor A",
+      "len": 3,
+      "date": "2024-09-28",
+      "time": "19:30",
+      "place": "Sala 321",
+      "nr": "2"
+    },
+    {
+      "id": "3681",
+      "title": "Wykład 0",
+      "body": "",
+      "prof": "Pan A",
+      "len": 2.5,
+      "date": "2024-09-24",
+      "time": "21:10",
+      "place": "Sala 250",
+      "nr": "1"
+    },
+    {
+      "id": "78c4",
+      "title": "Ćwiczenia 137649",
+      "body": "",
+      "prof": "Profesor B",
+      "len": 7,
+      "date": "2024-10-06",
+      "time": "22:00",
+      "place": "Wwa",
+      "nr": "2"
+    },
+    {
+      "id": "77eb",
+      "title": "Wykład 2",
+      "body": "",
+      "prof": "Profesor B",
+      "len": 2.5,
+      "date": "2024-09-28",
+      "time": "20:00",
+      "place": "Sala 123",
+      "nr": "1"
+    },
+    {
+      "id": "1023",
+      "title": "Ćwiczenia",
+      "body": "",
+      "prof": "Pan A",
+      "len": 2,
+      "date": "2024-09-28",
+      "time": "19:00",
+      "place": "Sala 123",
+      "nr": "1"
+    }
+  ]
+}

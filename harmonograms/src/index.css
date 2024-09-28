@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #4d3d3d;
+  
+}
+.navbar {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  background-color:  #FFD1D1;
+  border-bottom: 1px solid #FFE3E1;
+}
+
+.navbar .links {
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar-menu {
+  list-style: none; /* Usunięcie kropek listy */
+  margin: 0;
+  padding: 0;
+  display: flex; /* Ustawia elementy poziomo */
+  gap: 1rem; /* Odstępy między elementami */
+  align-items: center; /* Wyrównanie elementów w pionie */
+}
+
+.navbar-item {
+  color: #FFF5E4;
+  cursor: pointer;
+  position: relative;
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+
+.navbar-item:hover {
+  background-color: #FF9494;
+  border-radius: 5px;
+}
+
+.dropdown-toggle {
+  user-select: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%; /* Umieszcza listę poniżej elementu "Przeglądaj" */
+  left: 0; /* Dopasowuje menu do szerokości elementu nadrzędnego */
+  background-color: #FFD1D1;
+  border: 1px solid #FF9494;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 110px;
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  border-radius: 3px; /* Zaokrąglenie krawędzi menu */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Dodanie cienia */
+}
+
+/* Styl dla elementów menu */
+.dropdown-menu li {
+  padding: 0.5rem 1rem;
+  color: #4d3d3d;
+  background-color: #FFF5E4;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #FF9494;
+}
+
+.navbar-item.dropdown {
+  position: relative; /* Ustawia element jako kontener dla menu */
+}
+
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between; /* Rozdziela divy po bokach */
+}
+.home, .stats {
+  flex: 1; /* Każdy div zajmuje tyle samo miejsca */
+  padding: 20px;
+  box-sizing: border-box; /* Żeby padding nie zmieniał szerokości */
+}
+.stats {
+  background-color: #FFD1D1;
+  border-radius: 15px;
+}
+
+.subject-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.subject-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.subject-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.subject-preview a{
+  text-decoration: none;
+}
+
+.subject-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.subject-details div {
+  margin: 20px 0;
+}
+.subject-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create {
+  min-width: 30%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
